@@ -8,10 +8,10 @@ Nombre de la Mini App: COMPU-JHOS
 
 
 Este proyecto consta de dos archivos: 
-- 1) Archivo de python donde se hace el llamado de la aplicación para poder ejecutarse. 
-- 2) Archivo template html, donde esta todo el código de modelado de la página web, empleando Boostraps, Javascripts, Css y python. 
+1) Archivo de python donde se hace el llamado de la aplicación para poder ejecutarse. 
+2) Archivo template html, donde esta todo el código de modelado de la página web, empleando Boostraps, Javascripts, Css y python. 
 
-Ádemas, esta aplicación continene todos los siguientes puntos: 
+Ádemas, esta aplicación contiene todos los siguientes puntos: 
 - Novbar
 - Carousel
 - Cards
