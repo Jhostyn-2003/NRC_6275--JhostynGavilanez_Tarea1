@@ -13,8 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
- <!--Este es el Favicon de la Pagina -->
- <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" type="image/x-icon">
+    <!--Este es el Favicon de la Pagina -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" type="image/x-icon">
 
 
 
@@ -22,7 +22,7 @@
 
 <body>
 
-  <!--Parte 1: Nabvar  -->
+    <!--Parte 1: Nabvar  -->
     <!--Aqui se encuentra los botones de nuestra pagina web que nos dirige a la misma  -->
     <nav class="navbar navbar-expand-lg navbar-light p-2 mb-4 bg-info ">
         <div class="container-fluid ">
@@ -50,6 +50,72 @@
             </div>
         </div>
     </nav>
+
+     <!--Parte 2: Carrusel imagenes de nuestro proyecto -->
+    <!-- Aqui se valide el carrusel para realizar los movimientos predeterminados que tiene -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <!-- boton de la imagen 1-->
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <!-- boton de la imagen 2-->
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <!-- boton de la imagen 3-->
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <!-- esta es la primera imagen del carrusel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Aqui se hace llamado a una imagen de google-->
+                <img src="https://electromira.es/wp-content/uploads/2021/07/portatiles.jpg" class="d-block w-100"
+                    alt="Primera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Grandes Variedades de diseños</h5>
+                    <p>Tenemos computadoas que podemos ofrecerle con diseños extraordinarios</p>
+                </div>
+            </div>
+            <!-- Este es el segundo carrusel que contiene dicha imagen -->
+            <div class="carousel-item">
+                <!-- Aqui se hace llamado a una imagen de google-->
+                <img src="https://larepublica.pe/resizer/2BLxB-vEnd2NkbBmiAbj5vTMeKQ=/480x282/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/434MY7GBMFFSTDCJXTLKBMHRL4.jpg"
+                    class="d-block w-100" alt="Segunda imagen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Proporcionamos PC de todo tipos</h5>
+                    <p>Ofrecemos PC de todo tipo gamers, entre muchas otras. </p>
+                </div>
+            </div>
+            <!-- Esta es una imagen del carrusel numero 3-->
+            <div class="carousel-item">
+                <!-- Aqui se llama a una imagen de la internet -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_tSrQ6H4db91Ah5CCmXgkWYBiIzJVvaNhqEd8Q-botTeSZlyxg8T8nHfwJnI_wCCJpBM&usqp=CAU"
+                    class="d-block w-100" alt="Tercera imagen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Computadoras de Todo Precio </h5>
+                    <p>Somos la Empresa Numero 1, en compra y venta de tecnológias .</p>
+                </div>
+            </div>
+        </div>
+        <!-- Este es el boton anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <!-- Este es el boton de siguiente -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
 
 
 
