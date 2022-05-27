@@ -13,6 +13,7 @@ def principal():
     return render_template('index.html')
 
 
+
 # Se ejeuta la aplicacion en modo debug, esto para que se pueda ver los cambios en el codigo sin necesidad de reiniciar el servidor
 if __name__ == '__main__':
     app.run(debug=True)
